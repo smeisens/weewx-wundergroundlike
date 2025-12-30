@@ -1,7 +1,7 @@
 #-----------------------------------------------------------------
 #         custom WundergroundLike uploader
 #
-#    Copyright (c) 2026 Sigi Meisenbichler <s.meisen@icloud.com>
+#    Copyright (c) 2025 Sigi Meisenbichler <s.meisen@icloud.com>
 #
 #    Copyright (c) 2025 Vince Skahan <vinceskahan@gmail.com>
 #
