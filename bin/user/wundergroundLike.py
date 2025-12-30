@@ -19,8 +19,7 @@ import logging
 import queue
 
 import weewx.restx
-from weeutil.config import search_up
-from weeutil.weeutil import to_bool, to_sorted_string
+from weeutil.weeutil import to_bool
 
 log = logging.getLogger(__name__)
 
