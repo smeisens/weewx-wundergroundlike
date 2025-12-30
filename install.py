@@ -11,11 +11,11 @@ from io import StringIO
 
 #-------- extension info -----------
 
-VERSION      = "0.1"
+VERSION      = "0.2.1"
 NAME         = 'wundergroundLike'
 DESCRIPTION  = 'Post to a custom server_url that uses Weather Underground formatting'
-AUTHOR       = "Vince Skahan"
-AUTHOR_EMAIL = "vinceskahan@gmail.com"
+AUTHOR       = "Sigi Meisenbichler"
+AUTHOR_EMAIL = "s.meisen@icloud.com"
 
 #-------- main loader -----------
 
@@ -45,7 +45,7 @@ extension_config = """
 
     [[WundergroundLike]]
         # This section is for configuring posts to a site that expects
-        # Weather Underground formatted data.  This typically is only
+        # Weather Underground formatted data. This typically is only
         # needed if you post to the actual Weather Underground 'and'
         # you 'also' want to post similarly to a different site.
 
