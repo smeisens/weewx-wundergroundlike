@@ -54,7 +54,7 @@ extension_config = """
         # Please consult the weewx documentation for details.
 
         # To enable this uploader, set enable = True below and specify your
-        #    appropriate values for station, password, and server_url
+        # appropriate values for station, password, and server_url
 
         enable = false
         station = replace_me
