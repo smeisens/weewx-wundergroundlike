@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0] - 2026-01-04
+
+### Changed by Sigi Meisenbichler
+- Removed rapidfire
+- Removed unused imports
+- Removed unused attributs
+
 ## [0.2.0] - 2025-12-30
 
 ### Changed by Sigi Meisenbichler
