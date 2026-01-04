@@ -38,9 +38,10 @@ You need this extension.  See below for how to install and configure.
 ````
 # weectl extension install https://github.com/smeisens/weewx-wundergroundlike/archive/refs/heads/main.zip
 # weectl extension list
-Using configuration file /Users/smeisens/weewx-data/weewx.conf
+Using configuration file /etc/weewx/weewx.conf
 Extension Name    Version   Description
 wundergroundLike  1.0.0     Post to a custom server_url that uses Weather Underground formatting
+# sudo systemctl restart weewx
 ````
 
 ### Configuration Options
