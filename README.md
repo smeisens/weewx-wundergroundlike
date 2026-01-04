@@ -40,7 +40,7 @@ You need this extension.  See below for how to install and configure.
 # weectl extension list
 Using configuration file /Users/smeisens/weewx-data/weewx.conf
 Extension Name    Version   Description
-wundergroundLike  0.2       Post to a custom server_url that uses Weather Underground formatting
+wundergroundLike  1.0.0     Post to a custom server_url that uses Weather Underground formatting
 ````
 
 ### Configuration Options
