@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------
-#         custom WundergroundLike uploader
+#         custom WundergroundLike uploader v1.0.0
 #
 #    Copyright (c) 2026 Sigi Meisenbichler <s.meisen@icloud.com>
 #
