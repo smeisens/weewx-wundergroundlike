@@ -11,7 +11,7 @@ from io import StringIO
 
 #-------- extension info -----------
 
-VERSION      = "1.0.0"
+VERSION      = "1.0.1"
 NAME         = 'wundergroundLike'
 DESCRIPTION  = 'Post to a custom server_url that uses Weather Underground formatting'
 AUTHOR       = "Sigi Meisenbichler"

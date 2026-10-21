@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.0.1] - 2026-10-21
+
+### Fixed
+- WundergroundLike no longer inherits from `StdWunderground` but from `StdRESTful`.
+  In 1.0.0 the parent constructor processed `[[Wunderground]]` a second time, which
+  - with only WU enabled: posted every record to Weather Underground twice
+  - with WU and WundergroundLike enabled: posted every record to `server_url` twice
+    and left the extra WU thread idle
+- Disabling the uploader (`enable = false`) no longer logs an ERROR.
+  Only the regular INFO "Posting not enabled" from weewx remains.
+
+### Added
+- WARNING (instead of a generic ERROR) when the uploader is enabled but
+  `station`, `password` or `server_url` is missing or still `replace_me`;
+  the message names the missing options
+- WARNING if `rapidfire = true` is set (not supported, ignored)
+- `[[[Essentials]]]` subsection is honored, like in the stock WU uploader
+- Startup log line shows the target `server_url`
+
 ## [1.0.0] - 2026-01-04
 
 ### Changed by Sigi Meisenbichler
